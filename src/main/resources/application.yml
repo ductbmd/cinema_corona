@@ -1,0 +1,11 @@
+
+server: 
+  port: 9000 
+  servlet:
+    context-path: /apis
+spring: 
+  datasource: 
+    driver-class-name: com.mysql.cj.jdbc.Driver 
+    url: jdbc:mysql://172.104.185.85:3306/teko_test?useSSL=false&characterEncoding=utf8 
+    password: Teko123$%^
+    username: teko_test
